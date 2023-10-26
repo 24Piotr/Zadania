@@ -1,16 +1,86 @@
 <!DOCTYPE html>
        <html lang="pl-PL">
-       <html>
 	<head>
 	<meta charset="utf-8">
-		<title> Piotr Giedo </title>
-         </head>
- <body>
- <body bgcolor="white"> <!--Kolor tła-->
- <!--Przekierowanie do linku-->
- <A HREF="http://www.wp.pl">Tutaj będzie formularz</A>
- <br>
- <!--Powrót do index.html-->
- <A HREF="index.html">Wróć</A>
- </body>
- </html>
+		<title>Piotr Giedo</title>
+	<meta name="author">
+    </head>
+<body bgcolor="#9e9e9e"><!-- Kolor tła-->
+ <h1 style="text-align:center; font-family:Verdana">FORMULARZ PODAŃ </h1>
+ <h1 style="text-align:center; font-family:Verdana">DO KÓŁKA TEATRALNEGO</h1>
+
+<!-- Środek formularza --> 	
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+<TABLE>
+<TR width="900">
+<TD>
+</TD>
+<TD>
+&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp <input name="imie" size="22">&nbsp<b>Imię</b>
+&nbsp &nbsp&nbsp &nbsp<input name="nazwisko" size="22">&nbsp<b>Nazwisko</b>
+&nbsp &nbsp &nbsp<input name="nrtelefonu" maxlength="9" size="22" placeholder="123456789">&nbsp<b>Numer telefonu</b> (max.9 znaków) <br><br>
+<b>Wiek</b> <br>
+<input type="radio" name="Wiek" value="14"> 14 <input type="radio" name="Wiek" value="15"> 15 <input type="radio" name="Wiek" value="16"> 16
+<input type="radio" name="Wiek" value="17"> 17 <input type="radio" name="Wiek" value="18"> 18 <br><br>
+
+	<select>
+	<option name="Typ postaci" value="Pierwszoplanowa">Pierwszoplanowa</option>
+	<option name="Typ postaci" value="Drugoplanowa">Drugoplanowa</option>
+	<option name="Typ postaci" value="Trzecioplanowa">Trzecioplanowa</option>
+	<option name="Typ postaci" value="Epizodyczna">Epizodyczna</option>
+	<option name="Typ postaci" value="Obojetne">Obojętne</option>
+	</select>
+<b>Postać jaką chcesz odgrywać</b> <br><br>
+
+
+	<b>Opis postaci</b> <br>
+<textarea cols="30" rows="1"></textarea> <br><br>
+<select>
+	<option name="LekcjePiatekPocz" value=""></option>
+	<option name="LekcjePiatekPocz" value="800">8:00</option>
+	<option name="LekcjePiatekPocz" value="830">8:30</option>
+	<option name="LekcjePiatekPocz" value="930">9:00</option>
+	<option name="LekcjePiatekPocz" value="1030">10:30</option>
+	</select>Kiedy rozpoczynasz lekcje w piątki</b> <br><br>
+	
+	<select>
+		<option name="LekcjePiatekKon" value="1400">14:00</option>
+		<option name="LekcjePiatekKon" value="1430">14:30</option>
+		<option name="LekcjePiatekKon" value="1500">15:00</option>
+		</select><b>Kiedy kończysz lekcje w piątki</b> <br><br>
+<input name="dlaczegoty" size="22">&nbsp &nbsp <b>Dlaczego mamy wybrać ciebię</b> <br><br>
+
+	<b>Zaznacz jedną z poniższych czynności jaką możesz wykonywać</b> <br>
+<input type="checkbox" name="gitara" value="gitara"><b>Gra na gitarze</b> <input type="checkbox" name="sufler" value="sufler"><b>Budka suflera</b>
+<input type="checkbox" name="pianinio" value="pianino"><b>Gra na pianinie</b> <input type="checkbox" name="osiwetlenie" value="oswietlenie"><b>Oświetlenie</b>
+<input type="checkbox" name="nic" value="nic" checked><b>Nic</b> <br><br>
+	<b>Jakie doświadczenie masz w tematach teatralnych</b> <br>
+<input type="checkbox" name="TematyTeatralne" value="male"><b>Małe</b> 
+<input type="checkbox" name="TematyTeatralne" value="duze"><b>Duże</b> 
+<input type="checkbox" name="TematyTeatralne" value="srednie"><b>Średnie</b> <br><br>
+
+	<b>Jak się czujesz na scenie</b> <br>
+<input type="checkbox" name="NaScenie" value="dobrze"><b>Dobrze</b> <br>
+<input type="checkbox" name="NaScenie" value="zle"><b>Źle</b> <br>
+<input type="checkbox" name="NaScenie" value="srednio"><b>Średnio</b> <br>
+<input type="checkbox" name="NaScenie" value="swietnie"><b>Świetnie</b> <br><br>
+
+	<b>Czy miałeś(aś) kiedykolwiek doczynienia z odgrywaniem ról na scenie</b> <br>
+<input type="radio" name="RoleNaScenie" value="tak">Tak <br>
+<input type="radio" name="RoleNaScenie" value="nie">Nie <br>
+<input type="radio" name="RoleNaScenie" value="niepamietam">Nie pamiętam <br><br>
+<input type="Haslo" name="haslo" size="22">&nbsp &nbsp <b>Hasło</b> <br><br>
+<br> <br>
+<input type="submit" value="Wyślij" style="height:70px; width:100px"> &nbsp &nbsp &nbsp &nbsp &nbsp <input type="reset" value="Czyść" style="height:70px; width:100px">
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<button onclick="alert('Niespodzianka!')" style="height:40px;width:100px">Niespodzianka</button>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<button onclick="alert('Włochy są najstarszym krajem w Europie i drugim najstarszym krajem na świecie po Japonii.')" style="height:40px;width:100px">Ciekawostka</button>
+
+<br><br><A href="index.html">Wróć</A>
+</TD>
+</TR>
+</TABLE>
+</form>
+</body>
+</html>
